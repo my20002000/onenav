@@ -11,7 +11,7 @@
 		<meta name="HandheldFriendly" content="true">
 		<title>快速添加</title>
 		<link rel="stylesheet" type="text/css" href="templates/admin/static/add_quick_tpl.css" />
-		<link rel="stylesheet" type="text/css" href="https://libs.xiaoz.top/layui/v2.5.4/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="lib/layui/v2.5.4/css/layui.css" />
 	</head>
 
 	<body>
@@ -59,9 +59,9 @@
 		</div>
 		
 		<!--JQ-->
-        <script src="https://libs.xiaoz.top/jquery/2.2.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/jquery/2.2.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
         <!--Layui-->
-		<script src="https://libs.xiaoz.top/layui/v2.5.4/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layui/v2.5.4/layui.js" type="text/javascript" charset="utf-8"></script>
 		<!--iconfont-->
 		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2474757_xsupv5wqpn.css" />
 		<script src="//at.alicdn.com/t/font_2474757_xsupv5wqpn.js" type="text/javascript" charset="utf-8"></script>

@@ -7,7 +7,7 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://lib.sinaapp.com/js/bootstrap/4.3.1/css/bootstrap.min.css" type="" media=""/>
+	<link rel="stylesheet" href="lib/bootstrap/4.3.1/css/bootstrap.min.css" type="" media=""/>
 </head>
 <body>
 	<div class="container" style = "margin-top:2em;">

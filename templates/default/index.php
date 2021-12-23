@@ -8,11 +8,11 @@
 	<meta name="keywords" content="<?php echo $site_setting['keywords']; ?>" />
 	<meta name="description" content="<?php echo $site_setting['description']; ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel='stylesheet' href='https://libs.xiaoz.top/mdui/v1.0.1/css/mdui.min.css'>
-	<link rel='stylesheet' href='https://libs.xiaoz.top/jQuery-contextMenu/2.9.2/jquery.contextMenu.min.css'>
-	<link rel="stylesheet" href="https://libs.xiaoz.top/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel='stylesheet' href='lib/mdui/v1.0.1/css/mdui.min.css'>
+	<link rel='stylesheet' href='lib/jQuery-contextMenu/2.9.2/jquery.contextMenu.min.css'>
+	<link rel="stylesheet" href="lib/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel="stylesheet" href="templates/<?php echo TEMPLATE; ?>/static/style.css?v=<?php echo $version; ?>">
-	<script src = 'https://libs.xiaoz.top/mdui/v1.0.1/js/mdui.min.js'></script>
+	<script src = 'lib/mdui/v1.0.1/js/mdui.min.js'></script>
 	<!-- <script src="https://cdn.jsdelivr.net/npm/hotkeys-js@3.7.3/dist/hotkeys.min.js"></script> -->
 </head>
 <body class = "mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink mdui-loaded">
@@ -154,7 +154,7 @@
 						<a href="/index.php?c=click&id=<?php echo $link['id']; ?>" target="_blank" title = "<?php echo $link['description']; ?>">
 							<div class="mdui-card-primary" style = "padding-top:16px;">
 									<div class="mdui-card-primary-title link-title">
-										<img src="https://favicon.rss.ink/v1/<?php echo base64($link['url']); ?>" alt="HUAN" width="16" height="16">
+										<img src="assets/rss.ink.png" alt="HUAN" width="16" height="16">
 										<span class="link_title"><?php echo $link['title']; ?></span> 
 									</div>
 
@@ -183,10 +183,10 @@
 	</footer>
 	<!-- footerend -->
 </body>
-<script src = 'https://libs.xiaoz.top/jquery/2.2.4/jquery.min.js'></script>
+<script src = 'lib/jquery/2.2.4/jquery.min.js'></script>
 <script src="/static//layer/layer.js"></script>
-<script src = 'https://libs.xiaoz.top/jQuery-contextMenu/2.9.2/jquery.contextMenu.min.js'></script>
-<script src = 'https://libs.xiaoz.top/clipBoard.js/clipBoard.min.js'></script>
+<script src = 'lib/jQuery-contextMenu/2.9.2/jquery.contextMenu.min.js'></script>
+<script src = 'lib/clipBoard.js/clipBoard.min.js'></script>
 <script src = "templates/<?php echo TEMPLATE; ?>/static/holmes.js"></script>
 <script src="templates/<?php echo TEMPLATE; ?>/static/embed.js?v=<?php echo $version; ?>"></script>
 <script>

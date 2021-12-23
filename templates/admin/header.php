@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>OneNav后台管理</title>
-  <link rel='stylesheet' href='https://libs.xiaoz.top/layui/v2.5.4/css/layui.css'>
+  <link rel='stylesheet' href='lib/layui/v2.5.4/css/layui.css'>
   <link rel='stylesheet' href='templates/admin/static/style.css?v=<?php echo $version; ?>'>
 </head>
 <body class="layui-layout-body">
@@ -23,7 +23,7 @@
     <ul class="layui-nav layui-layout-right">
       <li class="layui-nav-item">
         <a href="javascript:;">
-          <img src="https://gravatar.loli.net/avatar/<?php echo md5(EMAIL); ?>" class="layui-nav-img">
+          <img src="assets/avatar.jpg" class="layui-nav-img">
           <?php echo USER; ?>
         </a>
         <dl class="layui-nav-child">
